@@ -1,0 +1,15 @@
+{
+  "name": "waterfall-analysis",
+  "version": "1.0.0",
+  "description": "waterfall analysis challenge solution",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel index.html --open chrome",
+    "build": "parcel build index.html"
+  },
+  "author": "Matthias Rittner",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
