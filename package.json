@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "currency.js": "^2.0.4"
   }
 }
