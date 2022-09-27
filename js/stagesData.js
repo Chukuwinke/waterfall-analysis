@@ -17,10 +17,10 @@ export const allStages = [
     },
     {stage:"stage-3",
         owners:[
-            {seniority:1, investor:"Founders", ownerPercent:37.71, investedAmount:0, liqPref:"participation-uncap", cap:0},
+            {seniority:1, investor:"Founders", ownerPercent:33.33, investedAmount:0, liqPref:"participation-uncap", cap:0},
             {seniority:2, investor:"InvestorA", ownerPercent:6.67, investedAmount:0.9, liqPref:"participation-cap", cap:2},
-            {seniority:3, investor: "InvestorB", ownerPercent:10.71, investedAmount:2.1, liqPref:"participation-uncap", cap:0},
-            {seniority:4, investor: "InvestorC", ownerPercent:53.57, investedAmount:15, liqPref:"participation-uncap", cap:0},
+            {seniority:3, investor: "InvestorB", ownerPercent:10, investedAmount:2.1, liqPref:"participation-uncap", cap:0},
+            {seniority:4, investor: "InvestorC", ownerPercent:50, investedAmount:15, liqPref:"participation-uncap", cap:0},
             ]
     },
     {stage:"stage-4",

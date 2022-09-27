@@ -8,39 +8,21 @@
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-    <h1>Waterfall Analysis</h1>
-    <div class="input-container">
-        <input type="text" class="input__box">
-        <button id="saveFileBtn"> save as txt</button>
-    </div>
+    <header class="header">
+        <h1>Waterfall Analysis</h1>
+        <div class="header-btns__container">
+            <div class="input-container">
+                <label for="">Exit-Value</label>
+                <input type="text" placeholder="00,00,00.00" class="input__box" name="Exit-Value">
+            </div>
+            <button id="saveFileBtn"> Generate TXT</button>
+        </div>
+
+    </header>
+    
+    
     <div class="table__container">
-        <table class="styled-table">
-            <thead>
-                <tr>
-                    <th>Shared Class</th>
-                    <th>Percentage</th>
-                </tr>
-            </thead>
-            <tbody class="table-body">
-                <tr>
-                    <td>Founders</td>
-                    <td>33.33%</td>
-                </tr>
-                <tr class="row">
-                    <td>Preferred A Investors</td>
-                    <td>6.67%</td>
-                </tr>
-                <tr class="">
-                    <td>Preferred B Investors</td>
-                    <td>10%</td>
-                </tr>
-                <tr class="">
-                    <td>Preferred C Investors</td>
-                    <td>50%</td>
-                </tr>
-                <!-- and so on... -->
-            </tbody>
-        </table>
+        <div class="table-body"></div>
         
     </div>
     <script type="module" src="./js/index.js"></script>
